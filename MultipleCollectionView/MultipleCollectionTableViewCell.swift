@@ -11,7 +11,7 @@ final class MultipleCollectionTableViewCellForSinger: UICollectionViewCell {
 
     static let identifier = "MultipleCollectionTableViewCellForSinger"
 
-    private let titleLabel: UILabel = {
+    private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
         label.font = .systemFont(ofSize: 16, weight: .medium)
